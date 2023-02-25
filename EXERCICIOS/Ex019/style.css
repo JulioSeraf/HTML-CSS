@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom, rgb(109, 109, 231), white)}
+
+    h1{
+        background-color:rgb(27, 8, 112);
+        color: rgb(233, 233, 233);
+    }
+    .basico{
+
+    color: blue;
+
+    }
+
+    .intermediario{
+        color: blueviolet;
+
+    }
+
+    .avançado{
+
+        color: red;
+    }
+    #Principal{
+        text-align: center;
+    }
+
+    h2{
+        color: crimson;
+    }
+    .destaque{
+        background-color: rgba(252, 252, 0, 0.411);
+    }
