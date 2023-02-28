@@ -46,6 +46,7 @@ article.imagen{
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    background-position: center center;
 }
 
 article#img1{
