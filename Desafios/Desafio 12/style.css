@@ -12,10 +12,11 @@
     margin: 0;
     max-width: 100%;
     min-width: 290px;
+    font-size: 4.5vw;
 }
 body{
     font-family: 'Kalam',cursive;
-    font-size: 3.5em;
+    font-size: 1em;
     background-color: antiquewhite;
 }
 header{
@@ -25,6 +26,7 @@ header{
     box-shadow: 15px 15px 15px #6e200191;
 }
 header h1{
+    font-size: 2em;
     color: white;
     text-shadow: 5px 10px 1px #fa480270;
 }
@@ -40,7 +42,7 @@ article{
 }
 section{
     width:700px;
-    line-height: 4.5m;
+    line-height: 3.5m;
     
 }
 article.imagen{
