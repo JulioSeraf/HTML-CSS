@@ -10,6 +10,8 @@
 }
 *{
     margin: 0;
+    max-width: 100%;
+    min-width: none;
 }
 body{
     font-family: 'Kalam',cursive;
