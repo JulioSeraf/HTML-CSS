@@ -8,22 +8,31 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-
+            text-align: center;
         }
         table{
             width: 600px;
             border-collapse: collapse;
+            margin: auto;
         }
         td,th{ 
             border:1px solid black;
             padding: 10px;
 
         }
+        th{
+            background-color: lightblue;
+        }
         td{
             text-align: right;
         }
+        #font {
+            text-align: center;
+            font-family:cursive;
+        }
         .name{
             text-align: center;
+
         }
     </style>
 </head>
@@ -31,14 +40,14 @@
     <h1>Pesquiça de Gostos de Filmes na atualidade</h1>
     <table>
         <thead>
-            <th>Grupos</th>
-            <th>Nomes</th>
-            <th colspan="3">filmes</th>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="3">filmes</th>
         </thead>
         <tbody>
             <!-- mulheres -->
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td class="name">Ana Maria Santos</td>
                 <td> Alien</td>
                 <td>Rambo</td>
@@ -58,7 +67,7 @@
             </tr>
             <!-- homens -->
             <tr>
-                <th rowspan="3">Homens</th>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td class="name">Bruno Mendonça</td>
                 <td>Intocaveis</td>
                 <td>Amnesia</td>
@@ -79,6 +88,11 @@
 
         </tbody>
         <tfoot>
+            <tr>
+                <th scope="row">fonte</th>
+                <td colspan="4" id="font"><a href="https://github.com/JulioSeraf" rel="external"
+                    target="_blank">Julio Serafim</a></td>
+            </tr>
 
         </tfoot>
     </table>
