@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+            
+
+        }
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        thead >tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-weight: bolder;
+            background-color: rgba(128, 128, 128, 0.144);
+            padding: 10px;
+            font-size:1.1em;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightblue;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+     <!-- Anatomias de Tabelas Grande 
+       Table
+          caption
+          Thead
+            tr td th
+          Tbody
+            tr td th
+          Tfoot
+            tr td th
+        -->
+        <table>
+            <caption>Populaçao dos maiores estados do Brasil</caption>
+            <thead>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populaçao</th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sao Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 168 791</td>
+                 </tr> 
+                 <tr>
+                    <td> Rio de Janeiro</td>
+                    <td class="num">17 264 943</td>
+                 </tr>
+                 <tr>
+                    <td >Pernanbuco</td>
+                    <td class="num">4 056 323</td>
+                 </tr>
+
+                 <tr>
+                    <td>Distrito Federal</td>
+                    <td class="num">4 012 896</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="num">3 931 739</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">3 779 939</td>
+                </tr>
+                <tr>
+                    <td>Ceara</td>
+                    <td class="num">3 642 907</td>
+                </tr>
+                <tr>
+                    <td>Parana</td>
+                    <td class="num">3 468 575</td>
+                </tr>
+                <tr>
+                    <td>Goias</td>
+                    <td class="num">2 456 340</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>109 701 502</strong></td>
+
+            </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequatur tenetur deleniti iusto mollitia debitis modi ea. Assumenda pariatur maxime aperiam alias nostrum! Assumenda eius reiciendis similique, nisi nemo harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat obcaecati laboriosam vero dicta perferendis ad, consectetur ullam sed nostrum aut iure natus eaque! Laboriosam amet quis placeat voluptatibus </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequatur tenetur deleniti iusto mollitia debitis modi ea. Assumenda pariatur maxime aperiam alias nostrum! Assumenda eius reiciendis similique, nisi nemo harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat obcaecati laboriosam vero dicta perferendis ad, consectetur ullam sed nostrum aut iure natus eaque! Laboriosam amet quis placeat voluptatibus </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequatur tenetur deleniti iusto mollitia debitis modi ea. Assumenda pariatur maxime aperiam alias nostrum! Assumenda eius reiciendis similique, nisi nemo harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat obcaecati laboriosam vero dicta perferendis ad, consectetur ullam sed nostrum aut iure natus eaque! Laboriosam amet quis placeat voluptatibus </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequatur tenetur deleniti iusto mollitia debitis modi ea. Assumenda pariatur maxime aperiam alias nostrum! Assumenda eius reiciendis similique, nisi nemo harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat obcaecati laboriosam vero dicta perferendis ad, consectetur ullam sed nostrum aut iure natus eaque! Laboriosam amet quis placeat voluptatibus </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequatur tenetur deleniti iusto mollitia debitis modi ea. Assumenda pariatur maxime aperiam alias nostrum! Assumenda eius reiciendis similique, nisi nemo harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat obcaecati laboriosam vero dicta perferendis ad, consectetur ullam sed nostrum aut iure natus eaque! Laboriosam amet quis placeat voluptatibus </p>
+</body>
+</html>
