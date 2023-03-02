@@ -6,12 +6,12 @@ body{
     font-size: 1.1em;
 }
 h1{
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
     display: inline;
 }
 h1:hover{
     font-size:2.5em;
     transition-duration: 3s;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
 }
 table{
     margin: auto;
