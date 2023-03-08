@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightcyan;
+            text-align: center;
+        }
+        fieldset{
+            display: inline;
+            width: fit-content;
+            border-style: outset;
+            box-shadow: 0 0 5px black;
+
+        }
+        legend{
+            font-weight: bolder;
+            background-color: lightcyan;
+        }
+        .botton{
+            margin-top: 10px;
+            background-color: rgba(24, 24, 219, 0.555);
+            color:white;
+            border-radius: 3px;
+            box-shadow: 0 0 3px black;
+        }
+        .botton:active{
+        transform: translatey(-6px);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulario de email e telefone</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>
+                Dados Pessoais
+            </legend>
+            <div>
+                <label for="iname">Nome</label>
+                <input type="text" name="name" id="iname" placeholder="Nome completo:" autocomplete="name" required>
+            </div>
+            <div>
+                <label for="iemail"> Email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Add Email:">
+                <div>
+                    <label for="iphone">Numero</label>
+                    <input type="tel" nome="phone" id="iphone" required maxlength="8" autocomplete="tel" placeholder="xxxx-xxxx">
+                </div>
+        </fieldset>
+            <div>
+                <input class="botton" type="submit" value="Enviar">
+                <input class="botton" type="reset" value="Limpar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
