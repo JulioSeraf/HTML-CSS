@@ -13,16 +13,22 @@ header{
     background-color: gray;
     color: black;
     margin-bottom: 10px;
+
+}
+menu{
+    position: relative;
+
 }
 menu> ul > li > a{
     background-color: rgb(95, 94, 94);
     color: white;
     text-decoration: none;
-    display: block;
+    display:block;
 }
-menu> ul li{
+menu> ul> li{
+    width:100%;
     margin: 2px 0;
-}
+} 
 main{
     margin: auto; 
     background-color: white;
