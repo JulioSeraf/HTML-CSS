@@ -11,21 +11,16 @@
     }
 }
 /* Para tablets */
-@media screen and (min-width: 768pX) and (max-width:1024px){
+@media screen and (min-width: 768pX){
     menu {
         text-align: left;
         display: inline;
     }
-    #burge{ display: none;}
+    #burge{ display: none;
+    }
+
     menu > ul li {
-        width: fit-content;
-        
+        display: inline-block;
+        width:fit-content;  
 }
 }
-/* para PCs */
-@media screen and (min-width:1024px)and (max-width:1366px){
-}    
-/* Para Tvs */
- @media screen and (min-width:1366px) {
-    
- }
