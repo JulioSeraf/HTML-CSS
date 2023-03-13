@@ -9,13 +9,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{ 
-    text-align: center;
     background-color: gray;
     color: black;
     margin-bottom: 10px;
 
+} header h1 {
+    text-align: center;
 }
-menu{
+menu{ 
+    text-align: center;
     display: none;
 }
 menu> ul > li > a{

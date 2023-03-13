@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Responsivel para outros dispositivos */
+ /* print impressora */
+@media print {
+    #burge{ display: none;}
+    main{
+        border: 1px solid black;
+    }
+    main::after{
+        content: "Impresso do site Criado por julio Serafim";
+    }
+}
+/* Para tablets */
+@media screen and (min-width: 768pX) and (max-width:1024px){
+    menu {
+        text-align: left;
+        display: inline;
+    }
+    #burge{ display: none;}
+    menu > ul li {
+        width: fit-content;
+        
+}
+}
+/* para PCs */
+@media screen and (min-width:1024px)and (max-width:1366px){
+}    
+/* Para Tvs */
+ @media screen and (min-width:1366px) {
+    
+ }
